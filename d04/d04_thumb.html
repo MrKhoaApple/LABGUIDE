@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnails</title>
+    <style>
+        .small{
+            width: 200px;
+            height: 150px;
+        }
+        .big{
+            width: 500px;
+            height: 350px;
+        }
+        #galary{
+            position: relative;
+        }
+        #galary ul{
+            list-style-type: none;
+            width: 450px;
+        }
+        #galary span{
+            display: none;
+            position: absolute;
+            top: 10px;
+            left: 500px;
+        }
+        #galary li{
+            display: inline;
+            padding: 10px;
+            float: left;
+        }
+        #galary li:hover span{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <h2>Đèn Trung Thu</h2>
+    <hr>
+    <div id="galary">
+    <ul>
+        <li>
+            <a href="../Images/dentrungthu1.jpg" target="_blank">
+            <img src="../Images/dentrungthu1.jpg" alt="" class="small"><span><img src="../Images/dentrungthu1.jpg" alt="" class="big"></span>
+        </a>
+        </li>
+
+        <li>
+            <a href="../Images/dentrungthu2.jpg">
+            <img src="../Images/dentrungthu2.jpg" alt="" class="small"><span><img src="../Images/dentrungthu2.jpg" alt="" class="big"></span>
+        </a>
+        </li>
+
+        <li>
+            <a href="../Images/dentrungthu3.jpg">
+            <img src="../Images/dentrungthu3.jpg" alt="" class="small"><span><img src="../Images/dentrungthu3.jpg" alt="" class="big"></span>
+        </a>
+        </li>
+
+        <li>
+            <a href="../Images/dentrungthu4.jpg">
+            <img src="../Images/dentrungthu4.jpg" alt="" class="small"><span><img src="../Images/dentrungthu4.jpg" alt="" class="big"></span>
+        </a>
+        </li>
+
+        <li>
+            <a href="../Images/dentrungthu5.jpg">
+            <img src="../Images/dentrungthu5.jpg" alt="" class="small"><span><img src="../Images/dentrungthu5.jpg" alt="" class="big"></span>
+        </a>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+/* đây là file css cho các bài tập thư mục d03*/
+/* universal selector*/
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* type selector*/
+a{
+    text-decoration: none;
+}
+
+h2{
+    color: crimson;
+}
+
+/*class selector, tên bắt đầu bằng dấu .*/
+.autumm{
+    font-style: italic;
+    color: rgba(155, 4, 34, 0.788);
+    width: 50%;
+
+    border: double medium rebeccapurple;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2rem;
+
+    background-image: url(../Images/hangnga3d.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+ /* pseudo class: ::first-letter, áp dụng cho ký tự đầu tiên của thẻ p có class = title*/
+p.title::first-letter{
+    font-size: 200%;
+}
+
+p{
+    text-indent: 3rem;
+}
+
+/* pseudo class::first-line, áp dụng cho 1 dòng văn bản đầu tiên của thẻ p có class = title*/
+p.title::first-letter{
+    font-size: normal;
+    font-weight: bold;
+}
+
+/*id seletor, có tên bắt đầu bằng dấu #*/
+#menu{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    color: rgb(199, 147, 34);
+}
+
+/* pseudo class::hover*/
+a:hover{
+    background-color: hotpink;
+}
+
+div.autumm>p>img{
+    border: rgb(175, 22, 218) groove medium;
+    border-radius: 50%;
+    width: 20%;
+    
+}

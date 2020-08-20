@@ -1,0 +1,11 @@
+h2{
+    color: brown;
+    font-kerning: normal;
+    text-shadow: crimson 3px 3px 3px;
+}
+/* Định dảng thẻ image */
+img{
+    padding: 10px;
+    margin: 35px;
+    border: orange double thick;
+}
